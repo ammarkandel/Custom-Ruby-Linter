@@ -1,3 +1,3 @@
 def test
-  p "Hello World"
+  p 'Hello World'
 end
