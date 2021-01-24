@@ -2,7 +2,7 @@
 require_relative '../lib/check_methods'
 class CheckErrors
   def initialize
-    @test_text = File.readlines('./lib/test_text.rb', chomp: true)
+    @test_text = File.readlines('../lib/test_text.rb', chomp: true)
   end
 
   def alert_errors
