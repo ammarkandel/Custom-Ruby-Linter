@@ -18,3 +18,25 @@ The custom Ruby linter checks for the following warnings.
 
 - Ruby
 - RSpec for test ruby
+
+## Empty line before methods
+
+```ruby
+
+# Good code
+def method_one
+  return "Hello world"
+end
+
+def method_two
+  return "Hello world"
+end
+
+# Bad code
+def method_one
+  return "Hello world"
+end
+def method_two
+  return "Hello world"
+end
+```
