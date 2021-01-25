@@ -19,6 +19,8 @@ The custom Ruby linter checks for the following warnings.
 - Ruby
 - RSpec for test ruby
 
+> These are examples of good and bad codes. The good practises of code and the bad practises are shown below.
+
 ## Long of lines
 
 ```ruby
@@ -74,6 +76,19 @@ def method_two
   return "Hello world"
 end
 ```
+
+## Usage
+
+```
+$ git clone https://github.com/ammarkandel/Custom-Ruby-Linter.git
+```
+
+```
+$ cd Custom-Ruby-Linter
+```
+
+- And your code in lib/test_code.rb
+- Then run main
 
 ## Authors
 
