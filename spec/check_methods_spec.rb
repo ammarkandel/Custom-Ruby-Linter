@@ -1,4 +1,4 @@
-require '../lib/check_methods'
+require './lib/check_methods'
 
 describe 'test code' do
   include CheckMethods
