@@ -19,7 +19,7 @@ The custom Ruby linter checks for the following warnings.
 - Ruby
 - RSpec for test ruby
 
-> These are examples of good and bad codes. The good practises of code and the bad practises are shown below.
+> These are examples of good and bad codes. The good practices of code and the bad practices are shown below.
 
 ## Long of lines
 
@@ -88,7 +88,11 @@ $ cd Custom-Ruby-Linter
 ```
 
 - And your code in lib/test_code.rb
-- Then run main
+- Then make sure you are in the project folder
+- Run
+  ```
+  /Custom-Ruby-Linter$ main
+  ```
 
 ## Authors
 
